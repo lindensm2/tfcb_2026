@@ -13,6 +13,8 @@ Complete the interactive tutorial.
 
 _Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration? If there is something that you would have liked to learn that we left out please let us know so in future years it can be included_
 
+I did not hit any points of frustration, I felt able to carry out all instructions without needing any outside resources. Out of all sections, I found shell scripting to be most challenging. I didn't quite understand what my code was doing. When I ran my script I did not get the expected result and I was not sure what happened. It seemed that my script caputred too much of my terminal history and started to open anthony.txt instead of the content of 06-scripting. I understood the shell scripting section as a very brief introduction to a powerful tool that will be helpful later on. Since most of the tasks we need to carry out at this point can be done in a few commands without needing replication, I figured that I didn't need to dive too much deeper into understanding excatly what went wrong. Otherwise, I thought this tutorial was a great review of the content we went over in class, though it did take me a longer time than expected to complete. Because of this, I am glad I looked at the tutorial multiple days before the homework due date.
+
 
 ## Problem 1
 
@@ -52,7 +54,21 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-_Paste your SCRIPT here (not the output)_
+MY SCRIPT
+# I named my forked workspace "forked_tfcb_2026" to make it easier to find on my computer.
+# The directory path below may need to be adjusted if someone else's workspace has a different name.
+
+echo "My username is $(whoami)" > question01.txt
+
+echo "My home directory is $HOME" >> question01.txt
+
+echo "The contents of the tfcb_2026/lectures/lecture04/ directory are" >> question01.txt
+
+ls -a /workspaces/forked_tfcb_2026/lectures/lecture04 >> question01.txt
+
+mkdir homework02
+
+mv question01.txt homework02/
 
 
 ## Problem 2
