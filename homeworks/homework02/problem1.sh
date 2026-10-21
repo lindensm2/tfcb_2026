@@ -1,7 +1,7 @@
 #!/bin/bash
 
-### I named my forked workspace "forked_tfcb_2026" to make it easier to find on my computer.
-### The directory path below may need to be adjusted if someone else's workspace has a different name.
+# I named my forked workspace "forked_tfcb_2026" to make it easier to find on my computer.
+# The directory path below may need to be adjusted if someone else's workspace has a different name.
 
 echo "My username is $(whoami)" > question01.txt
 
