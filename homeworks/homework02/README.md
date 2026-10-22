@@ -91,6 +91,11 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
-_Paste your SCRIPT here (not the output)_
+mkdir -p question02
+
+for i in $(cat list.txt)
+    do > question02/files${i}.txt
+    echo "I have tried ${i} times to get this correct" > question02/files${i}.txt
+done
 
 
