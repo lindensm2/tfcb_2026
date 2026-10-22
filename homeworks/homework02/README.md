@@ -55,6 +55,7 @@ slides<br>
 vader.txt<br>
 
 MY SCRIPT
+'''
 ### I named my forked workspace "forked_tfcb_2026" to make it easier to find on my computer.
 ### The directory path below may need to be adjusted if someone else's workspace has a different name.
 
@@ -69,7 +70,7 @@ ls -a /workspaces/forked_tfcb_2026/lectures/lecture04 >> question01.txt
 mkdir homework02
 
 mv question01.txt homework02/
-
+'''
 
 ## Problem 2
 
@@ -91,11 +92,12 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
+'''
 mkdir -p question02
 
 for i in $(cat list.txt)
     do > question02/files${i}.txt
     echo "I have tried ${i} times to get this correct" > question02/files${i}.txt
 done
-
+'''
 
