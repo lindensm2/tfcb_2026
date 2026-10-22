@@ -54,8 +54,8 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-MY SCRIPT
-'''
+
+'''bash
 ### I named my forked workspace "forked_tfcb_2026" to make it easier to find on my computer.
 ### The directory path below may need to be adjusted if someone else's workspace has a different name.
 
@@ -92,7 +92,7 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
-'''
+'''bash
 mkdir -p question02
 
 for i in $(cat list.txt)
